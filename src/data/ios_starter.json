@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Shipswiftly",
+    "url": "https://www.shipswiftly.app",
+    "text": "Ship your (AI) IOS app in days not weeks!",
+    "category": "premium",
+    "hide": "FALSE",
+    "page": "shipswiftly",
+    "fullDescription": "The SwiftUI boilerplate with all you need to build your AI-wrapper IOS app, or any other IOS app and make your first $ online fast"
+  },
+  {
+    "title": "Shipthat",
+    "url": "https://www.shipthat.app",
+    "text": "Ship your SwiftUI app in days, not weeks",
+    "category": "premium",
+    "hide": "FALSE",
+    "page": "shipthat",
+    "fullDescription": "Elevate your app's potential with our SwiftUI Kit: Swift deployment, enhanced user engagement, and strategic insights—all at your fingertips."
+  },
+  {
+    "title": "Swiftship",
+    "url": "https://swiftship.dev",
+    "text": "Save hours of development and ship your iOS app in a few days or hours",
+    "category": "premium",
+    "hide": "FALSE",
+    "page": "swiftship",
+    "fullDescription": "A Swift UI Boilerplate that takes care of features commonly needed in mobile apps, and lets you save time and focus on your value proposition and main features."
+  }
+]
