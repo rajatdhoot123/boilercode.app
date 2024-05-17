@@ -48,7 +48,7 @@ export function StarterKit({
         </div>
       )}
       <div className="grid lg:grid-cols-4 gap-6 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
-        {data.map((item) => (
+        {data.slice(1).map((item) => (
           <Link
             href={`/${type}/${item.page}`}
             key={item.url}
