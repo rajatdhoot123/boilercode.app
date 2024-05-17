@@ -25,5 +25,14 @@
     "hide": "FALSE",
     "page": "swiftship",
     "fullDescription": "A Swift UI Boilerplate that takes care of features commonly needed in mobile apps, and lets you save time and focus on your value proposition and main features."
+  },
+  {
+    "title": "Wrapfast",
+    "url": "https://wrapfa.st",
+    "text": "The SwiftUI boilerplate to create AI wrappers or any iOS app FAST ⚡️",
+    "category": "premium",
+    "hide": "FALSE",
+    "page": "wrapfast",
+    "fullDescription": "Onboarding process, login users and process payments. Integrate AI securely in your apps without exposing your API Key and get hacked. WrapFast provides you with the boilerplate code you need to launch, FAST."
   }
 ]

@@ -7,6 +7,50 @@ export async function generateStaticParams() {
   }));
 }
 
+export const generateMetadata = ({ params: { product } }) => {
+  const item = next_starter.find((item) => item.page === product);
+
+  return {
+    title: `${item.title} - ${item.text}`,
+    description: item.fullDescription,
+    keywords: [
+      item.title,
+      "boilerplate",
+      "boilercode",
+      "web development",
+      "front-end",
+      "back-end",
+      "frameworks",
+      "nextjs",
+      "android",
+      "apple swift",
+      "react",
+    ],
+    author: "Boilercode app",
+    robots: "index, follow",
+    og: {
+      title: "BoilerCode - Your Source for Boilerplate Codes",
+      type: "website",
+      url: "https://www.boilercode.app",
+      description:
+        "Discover a collection of boilerplate codes for various technologies such as Next.js, Android, Apple Swift, React, and more on BoilerCode.",
+      site_name: "BoilerCode",
+      image: "/boilercode.png",
+      image_width: 1200,
+      image_height: 630,
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@boilercode",
+      creator: "@kwiktwik_co",
+      title: "BoilerCode - Your Source for Boilerplate Codes",
+      description:
+        "Discover a collection of boilerplate codes for various technologies such as Next.js, Android, Apple Swift, React, and more on BoilerCode.",
+      image: "/boilercode.png",
+    },
+  };
+};
+
 const NextBoilercode = ({ params: { product } }) => {
   const item = next_starter.find((item) => item.page === product);
 
