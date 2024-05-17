@@ -82,7 +82,7 @@ export function StarterKit({
       </div>
       {viewAll && (
         <Link
-          class="bg-[#3A30BA] text-white rounded-3xl px-12 py-3 inline-block"
+          className="bg-[#3A30BA] text-white rounded-3xl px-12 py-3 inline-block"
           href={`/${type}`}
         >
           View All

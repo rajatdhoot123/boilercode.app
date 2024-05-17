@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,7 +39,7 @@ export const metadata = {
     description:
       "Discover a collection of boilerplate codes for various technologies such as Next.js, Android, Apple Swift, React, and more on BoilerCode.",
     site_name: "BoilerCode",
-    image: "/boilercode.png",
+    image: "/logo.png",
     image_width: 1200,
     image_height: 630,
   },
@@ -49,14 +50,17 @@ export const metadata = {
     title: "BoilerCode - Your Source for Boilerplate Codes",
     description:
       "Discover a collection of boilerplate codes for various technologies such as Next.js, Android, Apple Swift, React, and more on BoilerCode.",
-    image: "/boilercode.png",
+    image: "/logo.png",
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Footer />
+      </body>
       <GoogleAnalytics gaId="G-GVF886TXYL" />
     </html>
   );

@@ -38,7 +38,7 @@ export const generateMetadata = ({ params: { product } }) => {
       description:
         "Discover a collection of boilerplate codes for various technologies such as Next.js, Android, Apple Swift, React, and more on BoilerCode.",
       site_name: "BoilerCode",
-      image: "/boilercode.png",
+      image: "/logo.png",
       image_width: 1200,
       image_height: 630,
     },
@@ -49,7 +49,7 @@ export const generateMetadata = ({ params: { product } }) => {
       title: "BoilerCode - Your Source for Boilerplate Codes",
       description:
         "Discover a collection of boilerplate codes for various technologies such as Next.js, Android, Apple Swift, React, and more on BoilerCode.",
-      image: "/boilercode.png",
+      image: "/logo.png",
     },
   };
 };
