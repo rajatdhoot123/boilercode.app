@@ -26,6 +26,9 @@ export const generateMetadata = ({ params: { product } }) => {
       "apple swift",
       "react",
     ],
+    alternates: {
+      canonical: `https://www.boilercode.app/${product}`,
+    },
     author: "Boilercode app",
     robots: "index, follow",
     og: {
