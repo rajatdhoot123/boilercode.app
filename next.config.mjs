@@ -8,6 +8,11 @@ const nextConfig = {
           "https://blogs-theta-six.vercel.app/blog/blog.boilercode.app/sitemap.xml",
       },
       {
+        source: "/blog/blog-sitemap.xml",
+        destination:
+          "https://blogs-theta-six.vercel.app/blog/blog.boilercode.app/sitemap.xml",
+      },
+      {
         source: "/blog",
         destination:
           "https://blogs-theta-six.vercel.app/blog/blog.boilercode.app",
@@ -15,11 +20,6 @@ const nextConfig = {
       {
         source: "/blog/:path*",
         destination: "https://blogs-theta-six.vercel.app/blog/:path*",
-      },
-      {
-        source: "/blog/blog-sitemap.xml",
-        destination:
-          "https://blogs-theta-six.vercel.app/blog/blog.boilercode.app/sitemap.xml",
       },
     ];
   },
